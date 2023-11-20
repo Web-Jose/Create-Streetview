@@ -63,3 +63,103 @@ This document describes the plan for the Google Streetview API Web Application. 
 2. **Jest:** Used to test the application automatically.
 
 ### Additional Tools:
+
+1. **API Testing:** Postman for testing the API.
+2. **Analytics:** Google Analytics for tracking user activity.
+
+## Structure
+
+### Navigation Structure
+
+- **Header:**
+
+  - **Logo:** The logo will be a link to the home page.
+  - **Home:** The home link will be a link to the home page.
+  - **Upload Photosphere:** The upload link will be a link to the upload page.
+  - **Virtual Tour:** The virtual tour link will be a link to the virtual tour page.
+  - **My Photospheres:** The my photospheres link will be a link to the my photospheres page.
+  - **Sign In:** The sign in link will be a link to the sign in page.
+  - **Sign Out:** The sign out link will be a link to the sign out page.
+
+- **Footer:**
+
+  - **Contact Us:** The contact us link will be a link to the contact us page.
+  - **About Us:** The about us link will be a link to the about us page.
+  - **Privacy Policy:** The privacy policy link will be a link to the privacy policy page.
+  - **Terms of Service:** The terms of service link will be a link to the terms of service page.
+  - **Report a Bug:** The report a bug link will be a link to the report a bug page.
+  - **Social Media Links:** The social media links will be links to the social media pages.
+
+### Pages and Components
+
+- **Home Page:**
+
+  - **Header:** The header will be displayed at the top of the page.
+  - **Footer:** The footer will be displayed at the bottom of the page.
+  - **Welcome Banner:** Briefly describes the application.
+  - **Feature Highlights:** Overview of key features like uploading photospheres, creating virtual tours, and viewing uploaded content.
+  - **Call to Action:** Sign-in button for new users and quick access for returning users.
+
+- **Sign-in/ Registration Page:**
+
+  - **Google OAuth Sign-in:** Allows users to sign-in with their Google account.
+  - **User Onboarding:** Instructions for new users on how to use the application.
+
+- **Upload Photosphere Page:**
+
+  - **Header:** The header will be displayed at the top of the page.
+  - **Footer:** The footer will be displayed at the bottom of the page.
+  - **Upload Interface:** Drag and drop or file selection options.
+  - **Location Selection:** Select location from map or enter longitude and latitude.
+  - **Metadata Editor:** Enter metadata for the photosphere.
+
+- **Virtual Tour Creation Page:**
+
+  - **Header:** The header will be displayed at the top of the page.
+  - **Footer:** The footer will be displayed at the bottom of the page.
+  - **Tour Builder:** Select photospheres to connect together to create a virtual tour.
+  - **Tour Preview:** Preview the virtual tour.
+  - **Save/ Share:** Save the virtual tour or share it with others.
+
+- **My Photospheres Page:**
+
+  - **Header:** The header will be displayed at the top of the page.
+  - **Footer:** The footer will be displayed at the bottom of the page.
+  - **Gallery:** Displays the photospheres that the user has uploaded.
+  - **Filter/ Sort:** Filter and sort the photospheres.
+  - **Edit/ Delete:** Edit metadata or delete photospheres.'
+
+- **Individual Photosphere View:**
+
+  - **Interactive Viewer:** Display the selected photosphere with pan and zoom functionalities.
+  - **Metadata Display:** Show the metadata associated with the photosphere.
+  - **Navigation Links:** To the next/previous photosphere or back to the gallery.
+
+- **Contact Us Page:**
+
+  - **Header:** The header will be displayed at the top of the page.
+  - **Footer:** The footer will be displayed at the bottom of the page.
+  - **Contact Form:** Allows users to send a message to the developers.
+
+- **About Us Page:**
+
+  - **Header:** The header will be displayed at the top of the page.
+  - **Footer:** The footer will be displayed at the bottom of the page.
+  - **About Us:** Information about the developers and the project.
+
+- **Privacy Policy Page:**
+
+  - **Header:** The header will be displayed at the top of the page.
+  - **Footer:** The footer will be displayed at the bottom of the page.
+  - **Privacy Policy:** Information about the privacy policy.
+
+- **Terms of Service Page:**
+
+  - **Header:** The header will be displayed at the top of the page.
+  - **Footer:** The footer will be displayed at the bottom of the page.
+  - **Terms of Service:** Information about the terms of service.
+
+- **Report a Bug Page:**
+  - **Header:** The header will be displayed at the top of the page.
+  - **Footer:** The footer will be displayed at the bottom of the page.
+  - **Bug Report Form:** Allows users to report a bug.
