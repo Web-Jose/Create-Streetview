@@ -11,21 +11,35 @@
 
   <body>
     <header>
+      <a href="index.html" id="logo">
+        <img
+          src="uploads/icons/White Logo.png"
+          alt="Create Streetview Logo"
+          draggable="false"
+        />
+      </a>
       <nav>
-        <a href="index.html">Logo</a>
         <a href="index.html">Home</a>
         <a href="upload.html">Upload Photosphere</a>
         <a href="virtual-tour.html">Virtual Tour</a>
         <a href="my-photospheres.html">My Photospheres</a>
         <a href="sign-in.html">Sign In</a>
-        <a href="sign-out.html">Sign Out</a>
       </nav>
     </header>
 
     <main>
       <section id="welcome-banner">
-        <h1>Welcome to Create Streetview</h1>
-        <p>Briefly describes the application.</p>
+        <div class="welcome-message">
+          <span id="welcome">Welcome to Create Streetview</span>
+          <span id="description">
+            Enhance your Google Streetview experience with this web app: upload
+            PhotoSphere images, create virtual tours, and explore the world
+            digitally, all with a simple sign-in.
+          </span>
+        </div>
+        <a href="sign-in.html">
+          <button class="Get-Started">Get Started</button>
+        </a>
       </section>
 
       <section id="feature-highlights">

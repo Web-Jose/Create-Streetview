@@ -83,6 +83,7 @@ This document describes the plan for the Google Streetview API Web Application. 
 
 - **Footer:**
 
+  - **Project Name and small description:** The project name and small description will be displayed at the top of the footer.
   - **Contact Us:** The contact us link will be a link to the contact us page.
   - **About Us:** The about us link will be a link to the about us page.
   - **Privacy Policy:** The privacy policy link will be a link to the privacy policy page.
@@ -98,7 +99,10 @@ This document describes the plan for the Google Streetview API Web Application. 
   - **Footer:** The footer will be displayed at the bottom of the page.
   - **Welcome Banner:** Briefly describes the application.
   - **Feature Highlights:** Overview of key features like uploading photospheres, creating virtual tours, and viewing uploaded content.
+  - **Explore Photospheres:** Displays a gallery of photospheres that users have uploaded.
+  - **Featured Virtual Tours:** Displays a gallery of virtual tours that users have created.
   - **Call to Action:** Sign-in button for new users and quick access for returning users.
+  - **News and Updates:** Displays news and updates about the application.
 
 - **Sign-in/ Registration Page:**
 
@@ -127,7 +131,7 @@ This document describes the plan for the Google Streetview API Web Application. 
   - **Footer:** The footer will be displayed at the bottom of the page.
   - **Gallery:** Displays the photospheres that the user has uploaded.
   - **Filter/ Sort:** Filter and sort the photospheres.
-  - **Edit/ Delete:** Edit metadata or delete photospheres.'
+  - **Edit/ Delete:** Edit metadata or delete photospheres.
 
 - **Individual Photosphere View:**
 
